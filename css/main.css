@@ -459,6 +459,9 @@ nav ul li{
         margin: auto;
     }
 
+    .downloads-section-tp >h2{
+        font-size: 2.5em;
+    }
     .downloads-section-tp > h2,.downloads-section-tp >p{
         width: 50%;
         margin: auto;
@@ -485,7 +488,13 @@ nav ul li{
         padding: 0px 20%;
     }
 
-    .FAQ-section-tp > h2,.FAQ-section-tp >p{
+    .FAQ-section-tp >h2{
+        font-size: 2.5em;
+        margin: auto;
+        margin-top: 1em;
+        width: 90%;
+    }
+   .FAQ-section-tp >p{
         width: 50%;
         margin: auto;
         margin-top: 1em;
