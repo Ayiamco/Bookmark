@@ -22,16 +22,22 @@
                <li>FEATURE</li>
                <li>PRICING </li>
                <li>CONTACT</li>
-               <li id="login">LOGIN</li>
+               <li id="login"style="color:white" >LOGIN</li>
            </ul>
        </div>
+       
     </nav>
 
     <!--  -->
     <section id="intro">
         <div class="hero-section" >
-            <img id="hero-section-img1" src="./images/illustration-hero.svg" alt="">
-            <img id ="hero-section-img2" src="./images/blue.png" alt="">
+            <div id="hero-section-img1">
+                <img  src="./images/illustration-hero.svg" alt="">  
+            </div>
+            <div id ="hero-section-img2">
+                 <img  src="./images/blue.png" alt="">  
+            </div>
+            
         </div>
         <div class="intro-body">
             <h1>A Simple Bookmark Manager</h1>
@@ -57,15 +63,20 @@
               soyou can access them on the go
         </p>
         <div class="features-link-container">
-            <p class="features-link" id="features-link-simple" >Simple Bookmarking</p>
-            <p class="features-link" id="features-link-speedy">Speedy Searching</p>
-            <p class="features-link" id="features-link-easy">Easy sharing</p>
+            <p class="features-link features-link-simple" id="features-link-focus" >Simple Bookmarking</p>
+            <p class="features-link features-link-speedy" id="features-link-speedy">Speedy Searching</p>
+            <p class="features-link features-link-easy" id="features-link-easy">Easy sharing</p>
         </div>
 
         <div id="features-simple">
             <div class="features-img-container">
-                <img class="features-img1" src="./images/illustration-features-tab-1.svg" alt="">
-                <img class="features-img2"src="./images/blue.png" alt="">
+                <div class="features-img1">
+                    <img  src="./images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="features-img2">
+                    <img src="./images/blue.png" alt=""> 
+                </div>
+               
             </div>
             <div class="features-body">
                 <h2>Bookmark in one click</h2>
@@ -76,7 +87,7 @@
                 </p>
                 <p class="features-btn">More Info</p>
             </div>
-        </div>
+         </div>
         <div id="features-speedy">
             <div class="features-img-container">
                 <img class="features-img1" src="./images/illustration-features-tab-2.svg" alt="">
@@ -106,12 +117,12 @@
                 </p>
                 <p class="features-btn">More Info</p>
             </div>
-        </div>
+        </div> 
     </section>
 
     <!--  -->
     <section id="downloads-section">
-        <div>
+        <div class="downloads-section-tp">
             <h2>Download The Extension</h2>
             <p>Our aim is to make it quick 
                 and easy for you to access your
@@ -121,8 +132,8 @@
             </p>
         </div>
 
-        <div>
-            <div class="download-card">
+        <div class="download-card-container">
+            <div class="download-card download-card-left">
                 <img src="./images/logo-chrome.svg" alt="">
                 <h3>Add to Chrome</h3>
                 <p>Minimum version 6.2</p>
@@ -136,7 +147,7 @@
                 <img src="./images/bg-dots.svg" alt="">
                 <p class="download-card-btn">Add and install the extension </p>
             </div>
-            <div class="download-card">
+            <div class="download-card download-card-right">
                 <img src="./images/logo-opera.svg" alt="">
                 <h3>Add to Chrome</h3>
                 <p>Minimum version 6.2</p>
@@ -148,7 +159,7 @@
     </section>
 
     <section id="FAQ-section">
-        <div>
+        <div class="FAQ-section-tp">
             <h2>Frequently Asked Questions</h2>
             <p>Here are some of our FAQs. If you
              have any other questions you'd like
@@ -199,15 +210,18 @@
 
     <!--  -->
     <footer>
-        <div>
-            <p>35000+ ALREADY JOINED
-            </p>
-            <p>Stay up to-date with what we are doing</p>
+        <div class="footer-tp">
+            <p>35000+ ALREADY JOINED</p>
+            <p class="footer-tp-large">Stay up to-date with what we are doing</p>
             <form>
-                <input type="text" placeholder="Enter your email address">
-                <button>Contact us</button>
+                <input id="ft-input" type="text" placeholder="Enter your email address">
+                <button id="ft-btn">Contact us</button>
             </form>
         </div>
+        <div class="footer-bt">
+
+        </div>
+        
     </footer>
 
     <script src="./js/index.js"></script>
