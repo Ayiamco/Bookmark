@@ -1,0 +1,250 @@
+/*  variables*/
+:root{
+    --gray-1:rgb(235, 232, 232);
+    --blue-1:#5166dd;
+}
+
+/* General styles */
+h1,h2,h3,h4,h5,h6,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans Condensed', sans-serif;";
+}
+
+h1,h2{
+    font-family: "lato";
+}
+
+/* Nav bar styles */
+nav{
+    background-color: var(--gray-1);
+    padding-bottom:1em;
+    padding: 2em;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:focus{
+    background-color: gray;
+}
+nav ul li{
+    margin-top: 1em;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+
+.nav-top i{
+    border: 1px solid gray;
+    padding: 0.5em;
+}
+
+#login{
+    background-color: rgb(161, 19, 19);
+    padding: 0.5em 1em;
+    display: inline-block;
+    color: white;
+    box-shadow: 0px 5px 10px gray;
+}
+
+.hide-nav{
+    display: none;
+}
+
+.show-nav{
+    display: block;
+}
+
+/* intro section styles */
+#intro{
+    margin: 2em 0px;
+    padding: 0.5em 2em;
+    text-align: center;
+}
+
+.hero-section{
+    margin-bottom: 1em;
+   
+}
+
+#hero-section-img1{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+#hero-section-img2{
+    width: 70%;
+    height: 250px;
+    margin-top: -12em ;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.intro-body{
+    margin-top: 3.5em;
+}
+
+.intro-body p{
+    margin-bottom: 1.5em;
+}
+
+.intro-btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-btn1,.intro-btn2{
+    padding: 1em 1em;
+    display: inline;
+    border-radius:3px;
+    box-shadow: 0px 5px 5px var(--gray-1);
+    cursor: pointer;
+    font-size: small;
+}
+.intro-btn2{
+    background-color: var(--gray-1);
+}
+.intro-btn1{
+    color: white;
+    background-color:var(--blue-1);
+}
+
+/* features section styles */
+#features{
+    padding:0em  2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.features-link-container{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.features-link{
+    border-top: 1px solid;
+    padding: 1em;
+    margin: 0px;
+}
+.features-link:hover{
+    background-color: var(--gray-1);
+}
+
+#features-link-focus{
+    border-bottom: 3px solid orangered;
+}
+
+.features-img1{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0px;
+    position: relative;
+}
+.features-img2{
+    width: 70%;
+    height: 250px;
+    margin-top: -9em ;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+    
+}
+
+.features-body{
+ margin-top: 7em;
+}
+
+.features-btn{
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    border-radius:3px;
+    box-shadow: 0px 5px 5px var(--gray-1);
+    cursor: pointer;
+    font-size: large;
+    background-color:var(--blue-1);
+    color: white;
+}
+
+/* download section styles */
+#downloads-section{
+    padding: 2em;
+    text-align: center;
+}
+
+.download-card{
+    margin: 1em ;
+    margin-top: 3em;
+    box-shadow: 0px 5px 10px var(--gray-1);
+    padding: 2em;
+}
+
+.download-card h3{
+    margin-top: 1em;
+}
+.download-card img {
+    width: 100%;
+}
+
+.download-card-btn{
+    padding: 1em;
+    color: white;
+    background-color: var(--blue-1);
+    cursor: pointer;
+}
+
+/* frquently asked question section styles */
+#FAQ-section{
+    padding: 2em;
+    text-align: center;
+}
+
+.FAQ-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-top: 1.5em;
+}
+.FAQ-question h3{
+    text-align: left;
+    font-weight: normal;
+}
+.FAQ-question i{
+    color: var(--blue-1);
+}
+.FAQ-answer{
+    text-align: left;
+    background-color: var(--gray-1);
+}
+
+#FAQ-answer1,#FAQ-answer2,#FAQ-answer3,#FAQ-answer4{
+    display: none;
+}
+
+.FAQ-btn{
+    padding: 0.5em 1em;
+    color: white;
+    background-color: var(--blue-1);
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 2em;
+}
